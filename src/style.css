@@ -1,3 +1,10 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --title-font: "Playfair Display", serif;
   --body-font: "Poppins", sans-serif;
@@ -6,7 +13,7 @@
   --btn-color: #6c63ff;
   --main-text-color: #000000;
   --primary-text-color: #272142;
-  --secondary-text-color: rgba(39, 33, 66, 0.7);
+  --secondary-text-color: #272142b3;
 }
 
 body {
@@ -14,7 +21,50 @@ body {
   padding: 0;
 }
 
-.hero {
-  padding: 270px 370px;
+header {
   background-color: var(--primary-bg-color);
+}
+
+.hero {
+  padding: 150px 300px;
+  text-align: center;
+}
+
+h1 {
+  font-family: var(--title-font);
+  font-weight: bold;
+  font-size: 96px;
+  margin-bottom: 25px;
+}
+
+p {
+  font-family: var(--body-font);
+}
+
+.hero p {
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-family: var(--title-font);
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.hero h2 {
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.my-btn {
+  margin-top: 40px;
+  padding: 15px 48px;
+  background: var(--btn-color);
+  color: var(--main-bg-color);
+  font-family: var(--body-font);
+  font-size: 18px;
+  font-weight: 500;
 }

@@ -249,6 +249,7 @@ footer h2 {
   margin-bottom: 60px;
 }
 
+.workpage-title,
 .about-me h1 {
   font-size: 64px;
   margin-bottom: 40px;
@@ -306,4 +307,51 @@ footer h2 {
     padding-right: 0;
     margin-bottom: 60px;
   }
+}
+
+/* work page css */
+
+.workpage-title {
+  margin: 150px 100px;
+}
+
+.workpage-content {
+  text-align: center;
+}
+
+.workpage-content .my-mb {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 576px) {
+  .workpage-title {
+    text-align: center;
+    font-size: 32px;
+    margin: 150px 50px 30px;
+  }
+
+  .offset-lg-3 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .workpage-content .my-mb {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 577px) {
+  .offset-lg-3 {
+    margin: 0;
+    padding: 0 !important;
+  }
+  .workpage-content .my-mb {
+    margin-bottom: 0px;
+  }
+}
+
+.workpage-content h2 {
+  font-family: var(--body-font);
+  font-weight: bold;
+  font-size: 24px;
 }

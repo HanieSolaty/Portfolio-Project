@@ -249,7 +249,7 @@ footer h2 {
   margin-bottom: 60px;
 }
 
-.workpage-title,
+.main-title,
 .about-me h1 {
   font-size: 64px;
   margin-bottom: 40px;
@@ -311,7 +311,7 @@ footer h2 {
 
 /* work page css */
 
-.workpage-title {
+.main-title {
   margin: 150px 100px;
 }
 
@@ -324,7 +324,7 @@ footer h2 {
 }
 
 @media (max-width: 576px) {
-  .workpage-title {
+  .main-title {
     text-align: center;
     font-size: 32px;
     margin: 150px 50px 30px;

@@ -92,3 +92,17 @@ h2 {
   background: var(--main-bg-color);
   border: 1px solid var(--btn-color);
 }
+
+main {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 576px) {
+  main {
+    text-align: center;
+  }
+  main h2,
+  h1 {
+    font-size: 44px;
+  }
+}

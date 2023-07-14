@@ -355,3 +355,17 @@ footer h2 {
   font-weight: bold;
   font-size: 24px;
 }
+
+.github-link,
+.github-link:visited {
+  color: var(--btn-color);
+  text-decoration: none;
+}
+
+.github-link:hover {
+  font-weight: 500;
+}
+
+.icon:hover {
+  font-weight: bold;
+}

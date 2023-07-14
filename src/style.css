@@ -105,4 +105,7 @@ main {
   h1 {
     font-size: 44px;
   }
+  .first {
+    padding: 1px 10px;
+  }
 }

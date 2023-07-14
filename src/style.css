@@ -18,6 +18,27 @@ header {
   background-color: var(--primary-bg-color);
 }
 
+.navbar {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.navbar-brand {
+  font-family: var(--title-font);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.active {
+  color: var(--btn-color) !important;
+}
+
+.nav-item {
+  font-family: var(--body-font);
+  font-weight: 500;
+  font-size: 16px;
+}
+
 .hero {
   padding: 150px 20px;
   text-align: center;
@@ -152,6 +173,10 @@ footer h2 {
 }
 
 @media (max-width: 576px) {
+  .navbar {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
   main {
     text-align: center;
   }

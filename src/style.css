@@ -39,6 +39,10 @@ header {
   font-size: 16px;
 }
 
+.nav-link:hover {
+  color: var(--btn-color) !important;
+}
+
 .hero {
   padding: 150px 20px;
   text-align: center;
